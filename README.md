@@ -45,7 +45,7 @@ possível.
 <blockquote> docker-compose up </blockquote>
 
 <h3> Para visualizar a documentação da API Rest (Swagger). Acesse o link :</h3>
-http://localhost:3333/api-docs
+<a>http://localhost:3333/api-docs</a>
 
 <h3> Para visualizar a aplicação acesse :</h3>
-http://localhost:3000
+<a>http://localhost:3000</a>
