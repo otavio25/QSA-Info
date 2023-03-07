@@ -3,18 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.9",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "6.3",
     "react-scripts": "^5.0.1",
-    "react-vis-network-graph": "^3.0.1",
-    "vis": "^4.21.0-EOL",
-    "vis-timeline": "^7.7.0"
+    "react-vis-network-graph": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
