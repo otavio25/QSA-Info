@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require("cors");
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./swagger.json'); // importando arquivo swagger.json contendo todas as definições da minha API
+const swaggerDocument = require('../swagger.json'); // importando arquivo swagger.json contendo todas as definições da minha API
 
 const quadro_socios_router = require('./router/quadro_socios_router')
 const busca_socio_router = require('./router/busca_socio_router')
