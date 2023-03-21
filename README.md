@@ -41,25 +41,13 @@ possível.
 <p>Na pasta raiz do projeto crie um arquivo chamado <strong>.env</strong>.</p>
 <p>Após a criação do arquivo escreva dentro dele os seguintes dados:</p>
 <blockquote>
-DB_HOST=host do banco de dados postgres
-</blockquote>
-<blockquote>
-DB_PORT=porta do banco de dados postgres
-</blockquote>
-<blockquote>
-DB_NAME=nome do banco de dados
-</blockquote>
-<blockquote>
-DB_USER=usuário do banco
-</blockquote>
-<blockquote>
-DB_PASSWORD=senha de acesso ao banco de dados
-</blockquote>
-<blockquote>
-FRONTEND_PORT=porta em que a aplicação frontend está sendo executada
-</blockquote>
-<blockquote>
-BACKEND_PORT=porta em que a aplicação backend está sendo executada
+DB_HOST=host do banco de dados postgres </br>
+DB_PORT=porta do banco de dados postgres </br>
+DB_NAME=nome do banco de dados </br>
+DB_USER=usuário do banco </br>
+DB_PASSWORD=senha de acesso ao banco de dados </br>
+FRONTEND_PORT=porta em que a aplicação frontend está sendo executada </br>
+BACKEND_PORT=porta em que a aplicação backend está sendo executada </br>
 </blockquote>
 <p>Configure os dados acima de forma correta.</p>
 
