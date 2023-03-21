@@ -37,15 +37,37 @@ possível.
     <li> <p> Docker Compose </p> </li>
 </ul>
 
-<h2> Comando para criar as tabelas no banco </h2>
-<p>Entre na pasta /src/backend e rode o comando:</p>
-<blockquote>npx knex migrate:latest</blockquote>
+<h2> Configuração das credenciais para a aplicação executar de forma correta </h2>
+<p>Na pasta raiz do projeto crie um arquivo chamado <strong>.env</strong>.</p>
+<p>Após a criação do arquivo escreva dentro dele os seguintes dados:</p>
+<blockquote>
+DB_HOST=host do banco de dados postgres
+</blockquote>
+<blockquote>
+DB_PORT=porta do banco de dados postgres
+</blockquote>
+<blockquote>
+DB_NAME=nome do banco de dados
+</blockquote>
+<blockquote>
+DB_USER=usuário do banco
+</blockquote>
+<blockquote>
+DB_PASSWORD=senha de acesso ao banco de dados
+</blockquote>
+<blockquote>
+FRONTEND_PORT=porta em que a aplicação frontend está sendo executada
+</blockquote>
+<blockquote>
+BACKEND_PORT=porta em que a aplicação backend está sendo executada
+</blockquote>
+<p>Configure os dados acima de forma correta.</p>
 
 <h2>Comando para rodar o servidor com a aplicação</h2>
 <blockquote> docker-compose up </blockquote>
 
 <h3> Para visualizar a documentação da API Rest (Swagger). Acesse o link :</h3>
-<a>http://localhost:3333/api-docs</a>
+< http://localhost:3333/api-docs >
 
 <h3> Para visualizar a aplicação acesse :</h3>
-<a>http://localhost:3000</a>
+< http://localhost:3000 >

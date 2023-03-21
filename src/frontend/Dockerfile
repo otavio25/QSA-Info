@@ -1,7 +1,7 @@
 FROM node:latest
 LABEL application="QSA Information"
 LABEL component="frontend"
-WORKDIR /app
+WORKDIR /frontend
 COPY package*.json ./
 RUN npm install
 COPY . .
