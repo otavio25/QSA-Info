@@ -67,7 +67,7 @@ BACKEND_PORT=porta em que a aplicação backend está sendo executada
 <blockquote> docker-compose up </blockquote>
 
 <h3> Para visualizar a documentação da API Rest (Swagger). Acesse o link :</h3>
-< http://localhost:3333/api-docs >
+http://localhost:3333/api-docs
 
 <h3> Para visualizar a aplicação acesse :</h3>
-< http://localhost:3000 >
+http://localhost:3000
