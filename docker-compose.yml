@@ -30,7 +30,6 @@ services:
       - database
     links:
       - database
-    #command: bash -c "npx knex migrate:latest && npm start"
     volumes:
       - /app/node_modules
       - ./src/backend:/app
@@ -42,7 +41,7 @@ services:
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
-      - ./init:/docker-entrypoint-initdb.d
+      - ./data/database:/var/lib/postgresql/data
     ports:
       - "${DB_PORT}:5432"
 volumes:

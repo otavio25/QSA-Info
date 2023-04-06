@@ -33,12 +33,6 @@ function Grafo() {
                 {id: empresa.cnpj, label: empresa.razao_social, group: "empresa", title: "Empresa"}
             ))),
         edges: socios_empresas.map(socio_empresa => ({from: socio_empresa.cnpj_cpf_socio, to:socio_empresa.cnpj}))
-        /* edges: [
-            { from: "A", to: "B" },
-            { from: "A", to: "C" },
-            { from: "B", to: "D" },
-            { from: "B", to: "E" }
-        ] */
     };
         
     const options = {
