@@ -1,25 +1,21 @@
 import React from 'react';
 import './styles.css'
-import { Container, ListGroup } from 'react-bootstrap';
+import { Container, ListGroup, Button } from 'react-bootstrap';
 
 function Sobre(){
     return(
         <Container>
             <div className='div-h1-sobre div-sobre'> 
-                <h1> Histórias de usuário </h1>
+                <h1> Nossa História </h1>
             </div>
             <ListGroup id='lista-sobre'>
                 <ListGroup.Item>
                     <p>
-                    Eu, como administrator de sistema, gostaria de abrir uma tela e visualizar a listagem do
-    quadro societário em ordem de CPF em menos de 1s para uma listagem com 300
-    registros.
-                    </p>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                    <p>
-                    Eu, como administrador do sistema, gostaria de pesquisar o nome de um sócio e
-    visualizar as empresas a que ele está vinculado.
+                    Uma aplicação para visualização das informações do QSA 
+                    (Quadro de Sócios e Administradores) disponíveis nesse link:
+                    <Button variant="link" href='https://bit.ly/3cRruVw'>aqui</Button>
+                    , de modo que o sistema apresente as informações 
+                    o mais rápido possível.
                     </p>
                 </ListGroup.Item>
             </ListGroup>

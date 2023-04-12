@@ -12,7 +12,7 @@ function Header(){
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/quadrosocios">Quadro Societário</Nav.Link>
-                        <Nav.Link href="/grafo">Grafo</Nav.Link>
+                        <Nav.Link href="/grafo">Grafo Sócio/Empresas</Nav.Link>
                         <Nav.Link href="/buscasocio">Busca Sócio</Nav.Link>
                         <Nav.Link href="/sobre">Sobre</Nav.Link>
                     </Nav>

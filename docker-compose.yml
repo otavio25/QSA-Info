@@ -10,8 +10,8 @@ services:
     ports:
       - ${FRONTEND_PORT}:3000
     volumes:
-      - /app/node_modules
-      - ./src/frontend:/app
+      - /frontend/node_modules
+      - ./src/frontend:/frontend
   backend:
     container_name: qsa-backend
     build:
@@ -31,8 +31,8 @@ services:
     links:
       - database
     volumes:
-      - /app/node_modules
-      - ./src/backend:/app
+      - /backend/node_modules
+      - ./src/backend:/backend
   database:
     container_name: postgres_container
     image: postgres

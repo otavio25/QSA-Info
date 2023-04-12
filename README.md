@@ -11,12 +11,12 @@ possível.
 <ul>
     <li>
         <p>
-            Eu, como administrator de sistema, gostaria de abrir uma tela e visualizar a listagem do quadro societário em ordem de CPF em menos de 1s para uma listagem com 300 registros.
+            Eu, como usuário do sistema, gostaria de abrir uma tela e visualizar a listagem do quadro societário em ordem de CPF em menos de 1s para uma listagem com 300 registros.
         </p>
     </li>
     <li>
         <p>
-            Eu, como administrador do sistema, gostaria de pesquisar o nome de um sócio e visualizar as empresas a que ele está vinculado.
+            Eu, como usuário do sistema, gostaria de pesquisar o nome de um sócio e visualizar as empresas a que ele está vinculado.
         </p>
     </li>
 </ul>
