@@ -55,7 +55,7 @@ BACKEND_PORT=porta em que a aplicação backend está sendo executada </br>
 <blockquote> docker-compose up </blockquote>
 
 <h2> Migração das tabelas para o banco </h2>
-<p>Entre na pasta /backend e execute o seguinte comando.</p>
+<p>Entre na pasta src/backend e execute o seguinte comando.</p>
 <blockquote>npx knex migrate:latest</blockquote>
 
 <h3> Para visualizar a documentação da API Rest (Swagger). Acesse o link :</h3>

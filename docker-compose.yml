@@ -44,6 +44,12 @@ services:
       - ./data/database:/var/lib/postgresql/data
     ports:
       - "${DB_PORT}:5432"
+  adminer:
+    image: adminer
+    links:
+      - database
+    ports:
+      - 8080:8080
 volumes:
   postgres:
     driver: local

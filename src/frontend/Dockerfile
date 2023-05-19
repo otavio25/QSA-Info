@@ -2,7 +2,7 @@ FROM node:latest
 LABEL application="QSA Information"
 LABEL component="frontend"
 WORKDIR /frontend
-COPY package*.json ./
+COPY ./package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
