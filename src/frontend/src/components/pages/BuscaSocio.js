@@ -13,7 +13,7 @@ function BuscaSocio(){
                     setSocios(res)
                 }
             )
-    })
+    }, [])
 
     return(
         <Container className='div-busca'>

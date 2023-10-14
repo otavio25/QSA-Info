@@ -12,7 +12,7 @@ function Grafo() {
                     setSocios(res)
                 }
             )
-    })
+    }, [])
 
     const [socios_empresas, setSociosEmpresas] = useState([])
 
@@ -24,7 +24,7 @@ function Grafo() {
                     setSociosEmpresas(res)
                 }
             )
-    })
+    }, [])
     
     const graph = {
         nodes: socios.map(socio => (

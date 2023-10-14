@@ -12,7 +12,7 @@ function QuadroSocios(){
                     setSocios(res)
                 }
             )
-    })
+    }, [])
 
     return(
         <Container className='div-quadro'>
