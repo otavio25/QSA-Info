@@ -1,6 +1,5 @@
 const model = require('../model/quadro_socios_model')
 
-
 module.exports = {
     get : async(req, res)=>{
         try {
